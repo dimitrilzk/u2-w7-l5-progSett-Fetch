@@ -16,4 +16,3 @@ async function visualizeAllBooks() {
 window.onload = () => {
   visualizeAllBooks();
 };
-/* <p>${allBooks.title}</p> */
