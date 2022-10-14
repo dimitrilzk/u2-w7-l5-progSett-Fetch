@@ -12,14 +12,35 @@
     <link rel="stylesheet" href="../css/styles2.css" />
   </head>
   <body>
-    <nav class="navbar bg-light mb-5 sticky-top">
-      <div class="container-fluid d-flex flex-wrap justify-content-evenly">
-        <a class="navbar-brand" href="../html/index.html">Library</a>
-        <a class="navbar-brand" href="../html/index2.html">Disney</a>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Libreria Utents</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Generi:
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./index.html">Scifi</a></li>
+                <li><a class="dropdown-item" href="./index_horror.html">Horror</a></li>
+                <li><a class="dropdown-item" href="./index_fantasy.html">Fantasy</a></li>
+                <li><a class="dropdown-item" href="./index_history.html">History</a></li>
+                <li><a class="dropdown-item" href="./index_horror.html">Romance</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index2.html">Disney</a>
+              </li>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
     </nav>
     <div class="container">
