@@ -1,7 +1,7 @@
 async function visualizeAllBooks() {
   let books = await fetch("https://striveschool-api.herokuapp.com/books");
-  let textBooks = await books.json();
-  for (let allBooks of textBooks) {
+  let arrayBooks = await books.json();
+  for (let allBooks of arrayBooks) {
     document.querySelector(
       ".container>.row"
     ).innerHTML += `<div class="card mx-1 my-1" style="width: 20rem;">
