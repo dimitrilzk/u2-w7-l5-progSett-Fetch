@@ -1,0 +1,22 @@
+{
+  "name": "u2-w7-l5-progsett-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitrilzk/u2-w7-l5-progSett-Fetch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimitrilzk/u2-w7-l5-progSett-Fetch/issues"
+  },
+  "homepage": "https://github.com/dimitrilzk/u2-w7-l5-progSett-Fetch#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
