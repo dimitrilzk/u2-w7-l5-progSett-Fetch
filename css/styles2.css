@@ -1,11 +1,14 @@
 .card img {
     width: 100%;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
 }
 body {
     background-color: grey;
 }
 .card {
     background-color: lightslategray;
+}
+h5 {
+    text-align: center;
 }

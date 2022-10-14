@@ -9,7 +9,7 @@ async function visualizeAllBooks() {
     <div class="card-body">
       <h5 class="card-title">${allBooks.title}</h5>
       <p class="card-text">${allBooks.category}</p>
-      <a href="#" class="btn btn-primary">€ ${allBooks.price}</a>
+      <a href="#" class="btn btn-primary d-flex justify-content-center">€ ${allBooks.price}</a>
     </div>
   </div>`;
   }
